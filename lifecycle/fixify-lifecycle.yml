@@ -1,0 +1,21 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.fixify.com/trust
+status_page:
+  url: https://status.fixify.com/
+  provider: incident.io
+  components:
+  - Website
+  - Ticket Ingestion
+  - Integrations
+sla:
+  url: https://fixify.com/sla
+  title: Service Level Agreement
+deprecation: null
+versioning: null
+deprecated_operations: []
+notes: >-
+  Fixify is a SaaS IT help desk automation platform with no public developer
+  API surface at time of enrichment. Operational transparency is via an
+  incident.io status page and a published SLA. No API versioning or deprecation
+  policy is published because there is no public API.

@@ -1,0 +1,33 @@
+generated: '2026-07-19'
+method: searched
+source: https://compliance.fixify.com/
+note: >-
+  Compliance posture asserted from Fixify's published trust center
+  (compliance.fixify.com, SafeBase by Drata) and trust page. No public API
+  spec exists, so API cross-cutting standards (oauth2/oidc/rfc9457/etc.) are
+  not asserted.
+standards:
+- id: soc2-type2
+  conforms: true
+  evidence: SOC 2 Type 2 report published in trust center
+- id: iso-27001
+  conforms: true
+  evidence: ISO/IEC 27001 certification listed in trust center
+- id: iso-42001
+  conforms: true
+  evidence: ISO/IEC 42001:2023 (AI management system) certification listed in trust center
+- id: hipaa
+  conforms: true
+  evidence: HIPAA report published in trust center
+- id: pci-dss
+  conforms: true
+  evidence: PCI DSS listed on trust page
+- id: nist-csf
+  conforms: true
+  evidence: NIST CSF listed on trust page
+- id: gdpr
+  conforms: true
+  evidence: GDPR compliance and DPA published
+- id: ccpa
+  conforms: true
+  evidence: CCPA compliance listed in trust center

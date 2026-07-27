@@ -1,0 +1,14 @@
+{
+  "repo": "fixify",
+  "feeds": [
+    {
+      "source": "https://fixify.com/pricing",
+      "feed_url": "https://fixify.com/pricing",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}

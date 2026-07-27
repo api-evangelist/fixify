@@ -1,0 +1,37 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://www.fixify.com/trust
+url: https://compliance.fixify.com/
+platform: SafeBase (by Drata)
+certifications:
+- SOC 2 Type 2
+- ISO/IEC 27001
+- ISO/IEC 42001:2023
+- HIPAA
+- PCI DSS
+- NIST CSF
+- GDPR
+- CCPA
+documents:
+- SOC 2 Report
+- HIPAA Report
+- Pentest Report
+evidence:
+- source: https://www.fixify.com/trust
+  keywords:
+  - soc 2
+  - iso 27001
+  - pci dss
+  - hipaa
+  - nist csf
+  - gdpr
+- source: https://compliance.fixify.com/
+  keywords:
+  - soc 2 type 2
+  - iso/iec 27001
+  - iso/iec 42001
+  - hipaa
+  - gdpr
+  - ccpa
+  - trust center

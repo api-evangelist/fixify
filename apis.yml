@@ -1,8 +1,28 @@
 aid: fixify
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fixify.png
 name: Fixify
-description: 'Fixify is a company surfaced as a portfolio company of scale-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: infrastructure. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Fixify is an AI-native IT help desk automation platform that resolves tier-1 IT
+  support requests and workflows on behalf of internal IT teams and MSPs. It builds
+  AI-generated playbooks from a customer's existing tech stack and executes dynamic
+  automations across chat surfaces (Slack, Teams, email) and ITSM systems such as
+  ServiceNow, Jira, Freshworks, ManageEngine, HaloPSA, and HappyFox, covering 40+
+  common IT use cases while providing metrics, SLA tracking, and audit trails. Fixify
+  is backed by Scale Venture Partners. This profile was surfaced from the VC portfolio
+  graph and enriched by the API Evangelist pipeline; at the time of enrichment Fixify
+  ships no public developer API, so this record captures the company identity plus its
+  security, trust, and operational-transparency surface.
 url: https://raw.githubusercontent.com/api-evangelist/fixify/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Infrastructure
+- IT Service Management
+- Help Desk
+- IT Automation
+- Artificial Intelligence
+- ITSM
+- Support
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,34 @@ maintainers:
 common:
 - type: Website
   url: https://www.fixify.com/
+- type: Pricing
+  url: https://fixify.com/pricing
+- type: Blog
+  url: https://fixify.com/it-automation-blog
+- type: PrivacyPolicy
+  url: https://fixify.com/privacy-policy
+- type: TermsOfService
+  url: https://fixify.com/msa
+- type: Login
+  url: https://app.fixify.com/
+- type: StatusPage
+  url: https://status.fixify.com/
+- type: Lifecycle
+  url: lifecycle/fixify-lifecycle.yml
+- type: TrustCenter
+  url: security/fixify-trust-center.yml
+- type: Compliance
+  url: https://compliance.fixify.com/
+- type: Conformance
+  url: conformance/fixify-conformance.yml
+- type: Security
+  url: security/fixify-vulnerability-disclosure.yml
+- type: VulnerabilityDisclosure
+  url: security/fixify-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/fixify-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
